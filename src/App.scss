@@ -1,0 +1,65 @@
+@import url("https://fonts.cdnfonts.com/css/poppins");
+$fontStyle: "Poppins", sans-serif;
+
+body{
+    font-family: $fontStyle;
+    background-color: white;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    text-decoration: none;
+    color: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+::-webkit-scrollbar-track
+{
+    display: none;
+}
+
+::-webkit-scrollbar
+{
+    width: clamp(0.25rem, 0.071rem + 0.476vw, 0.5rem);
+    height: clamp(0.25rem, 0.071rem + 0.476vw, 0.5rem);
+	background: none;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #6f7372;
+    border-radius: .5rem;
+}
+
+.blank-page{
+    background-color: #1a1d21;
+    width: clamp(9.5rem, -4.357rem + 69.286vw, 58rem)
+}
+
+
+@import "styles/sidebar";
+@import "styles/login";
+@import "styles/dm";
+@import "styles/channel";
+@import "styles/spinner";
+@import "styles/home";
+
+

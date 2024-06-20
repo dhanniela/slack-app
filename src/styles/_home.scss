@@ -1,0 +1,45 @@
+.home-container{
+    display: flex;
+}
+
+.homeSidebar-container{
+    width: clamp(9rem, 3.571rem + 27.143vw, 28rem);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: #131416;
+}
+
+.homeSidebar-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.homeSidebar-header h2{
+    font-size: clamp(0.5rem, 0.214rem + 1.429vw, 1.5rem);
+    margin-left: clamp(0.5rem, 0.143rem + 0.952vw, 1rem);
+}
+
+.home-list-container{
+    max-height: 35vh;
+    color: white;
+    margin-left: clamp(0.25rem, 0.071rem + 0.476vw, 0.5rem);
+    overflow-y: auto;
+}
+
+.homeSidebar-container .channelSidebar-header h2,
+.homeSidebar-container .dmSidebar-header h2{
+    font-size: clamp(0.5rem, 0.357rem + 0.714vw, 1rem);
+    // font-weight: 200;
+}
+
+.home-list-container .channel-list,
+.home-list-container .dms-list{
+    justify-content: space-between;
+}
+
+.list{
+    display: flex;
+}
